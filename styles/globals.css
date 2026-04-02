@@ -32,6 +32,7 @@ a {
 
 button,
 input {
+  cursor: pointer;
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
@@ -40,6 +41,10 @@ input {
 ul,
 ol {
   list-style: none;
+}
+
+img {
+  inline-size: 100%;
 }
 
 .visually-hidden {
